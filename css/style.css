@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html{
+	margin: 0;
+	font: 16px "Lato",sans-serif;
+	color: #777;
+	height: 100%;
+}
+
+.conteudo{
+	padding: 50px 80px;
+}
+
+.conteudo h3{
+	text-align: center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 10px;
+}
+
+.conteudo p{
+	font-size: 1em;
+	text-align: justify;
+}
+
+.paragrafo{
+	margin-bottom: 20px;
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	cursor: default;
+	user-select: none;
+}
+
+.conteudo-titulo span.titulo h2{
+	text-transform: uppercase;
+	margin: 0 50px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 4px;
+	color: #f1f1f1;
+}
+
+/* Parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5{
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: .8;
+}
+
+.caixa1, .caixa2, .caixa4, .caixa5{
+	background-position: center;
+}
+
+.caixa1{
+	background-image: url(../img/cod.jpg);
+}
+
+.caixa2{
+	background-image: url(../img/lol.png);
+}
+
+.caixa3{
+	background-image: url(../img/fortnite.png);
+}
+
+.caixa4{
+	background-image: url(../img/minecraft.jpg);
+}
+
+.caixa5{
+	background-image: url(../img/assasinscreed3.png);
+}
