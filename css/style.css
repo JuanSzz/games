@@ -88,3 +88,13 @@ body,html{
 .caixa5{
 	background-image: url(../img/assasinscreed3.png);
 }
+
+/* Rodapé */
+
+#rodape{
+	opacity: .8;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	background-color: #526362;
+}
